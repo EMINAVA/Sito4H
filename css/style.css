@@ -1,0 +1,47 @@
+html, body {
+    margin: 0px;
+}
+
+/* Parte in alto col logo */
+section#top {
+    padding: 4px;
+    width: 100%;
+    height: 6vh;
+    /* Nascondi contenuto che esce dalla div */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* Dimensioni comprendono il bordo */
+    box-sizing: border-box;
+}
+
+img#logo {
+    height: 100%;
+}
+
+/* Navbar */
+nav {
+    background-color: #F27649;
+    height: 4vh;
+    position: sticky;
+    top: 0;
+}
+
+/* Pagina */
+
+/* Impostazioni footer */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 3vh; /* Altezza footer */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3vh;
+    background-color: #eeeeee;
+}
