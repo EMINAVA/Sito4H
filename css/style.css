@@ -3,7 +3,7 @@ html, body {
 }
 
 /* Parte in alto col logo */
-section#top {
+#top {
     padding: 4px;
     width: 100%;
     height: 6vh;
@@ -14,8 +14,47 @@ section#top {
     box-sizing: border-box;
 }
 
+#logo-wrapper {
+    height: 100%;
+    width: max-content;
+    float: left;
+}
+
+#searchbar-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#searchbar-wrapper2 {
+    display: flex;
+    height: 100%;
+}
+
+
 img#logo {
     height: 100%;
+}
+
+/* Barra di ricerca */
+#searchbar[type="text"] {
+    padding: 4px 12px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid orange;
+    width: 50%;
+    font-size: 1.2em;
+    color: #888888;
+    border-radius: 5px;
+}
+
+#searchbar[type="text"]:hover {
+    background-color: #eeeeee;
+}
+
+#searchbar[type="text"]:focus {
+    outline: none;
+    background-color: white;
 }
 
 /* Navbar */
@@ -29,6 +68,8 @@ nav {
 /* Pagina */
 
 /* Impostazioni footer */
+
+/* Contenitore della pagina */
 #page-container {
     position: relative;
     min-height: 100vh;
