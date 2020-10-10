@@ -6,7 +6,7 @@ html, body {
 #top {
     padding: 4px;
     width: 100%;
-    height: 6vh;
+    height: 4em;
     /* Nascondi contenuto che esce dalla div */
     text-overflow: ellipsis;
     overflow: hidden;
@@ -36,8 +36,9 @@ img#logo {
 }
 
 /* Barra di ricerca */
-#searchbar[type="text"] {
-    padding: 4px 12px;
+/* Vecchia 
+#searchbar {
+    padding: 6px 12px;
     display: block;
     margin: auto;
     border: none;
@@ -46,21 +47,70 @@ img#logo {
     font-size: 1.2em;
     color: #888888;
     border-radius: 5px;
+    /* Ombra *//*
+    box-shadow: 1px 1px 3px;
 }
 
-#searchbar[type="text"]:hover {
+#searchbar:hover {
     background-color: #eeeeee;
 }
 
-#searchbar[type="text"]:focus {
+#searchbar:focus {
     outline: none;
     background-color: white;
+}
+
+*/
+
+#new-searchbar {
+    padding: 6px 12px 6px 35px;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    font-size: 1.2em;
+    color: #888888;
+    border-radius: 5px;
+    /* Ombra */
+    box-shadow: 1px 1px 3px;
+}
+
+#new-searchbar-wrapper {
+    display: flex;    
+    position: relative;
+    margin: auto;
+    width: 40em;
+}
+
+#new-searchbar:hover {
+    background-color: #eeeeee;
+}
+
+#new-searchbar:focus {
+    outline: none;
+    background-color: white;
+}
+
+#search-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 14px;
+}
+
+#clear-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 10px;
+    cursor: pointer;
+    visibility: hidden;
 }
 
 /* Navbar */
 nav {
     background-color: #F27649;
-    height: 4vh;
+    height: 2.5em;
     position: sticky;
     top: 0;
 }
