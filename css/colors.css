@@ -1,0 +1,40 @@
+/* Colori */
+
+.input-light {
+    color: #888888;
+}
+
+.input-light:hover {
+    background-color: #eeeeee;
+}
+
+.input-light:focus {
+    background-color: white;
+}
+
+.input-dark {
+    color: #CFD2D6;
+    background-color: #2D2D2D;
+}
+
+.footer-light {
+    background-color: #eeeeee;
+}
+
+.footer-section-central-light {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.footer-section-light {
+    color: #000000;
+}
+
+.button-light {
+    color: #888888;
+    background-color: white;
+}
+
+.button-light:hover {
+    background-color: #eeeeee;
+}

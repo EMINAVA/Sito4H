@@ -2,40 +2,92 @@
 
 <html lang="it">
 
-<head>    
+<head>
     <meta charset="UTF-8">
     <title>HWKnowledge</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/colors.css" />
+    <link rel="stylesheet" type="text/css" href="css/input.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div id="page-container">
         <div id="content-wrap">
-            
+
             <div id="top">
                 <div id="logo-wrapper">
-                    <img id="logo" src="img/logo.png" alt=""/>
+                    <img id="logo" src="img/logo.png" alt="" />
                 </div>
-                <div id="searchbar-wrapper"> 
+                <div id="searchbar-wrapper">
                     <div id="searchbar-wrapper2">
-                        <!--<input id="searchbar" type="text" placeholder="Cerca"/> -->
-                        
-                <div id="new-searchbar-wrapper">
-                    <img id="search-icon" src="img/search.svg"/>
-                    <img id="clear-icon" src="img/clear.svg"/>
-                    <input id="new-searchbar" type="text" placeholder="Cerca"/>
-                    <script type="text/javascript" src="js/clearScript.js"></script>
-                </div>
+                        <div class="input-wrapper top-searchbar-wrapper">
+                            <img id="search-icon" src="img/search.svg" alt="Search icon" />
+                            <img id="clear-icon" src="img/clear.svg" alt="Cancel icon" />
+                            <input class="input input-light searchbar" type="text" placeholder="Cerca" />
+                            <script src="js/clearScript.js"></script>
+                        </div>
                     </div>
                 </div>
-            </div> 
-            
-            <nav>
-        
+            </div>
+
+            <nav id="nav">
+
             </nav>
 
+            <main id="main">
+
+            </main>
+
         </div>
-        <footer id="footer"></footer>
+        <footer id="footer" class="footer-light">
+            <!-- TODO:
+                     - Dark mode button
+                     - CSS/html verified
+                     - Socials
+
+
+                a
+                <button id="dark-mode-btn">Dark mode</button>
+                <script src="js/darkModeScript.js"></script>
+            -->
+            <div class="footer-section footer-section-light">
+                <div>
+                    © 2020 Copyright Lorenzo Hajdari, Emiliano Nava, Federico Tesainer
+                    <button class="first-section-button button button-light" style="left: 1em;">Dark Mode</button>
+                    <button class="first-section-button button button-light" style="right: 1em;">Avviso Cookie</button>
+                </div>
+            </div>
+            <div class="footer-section footer-section-central-light footer-section-light">
+                Seguici sui social: 
+                <button class="social-button social-button1 button button-light">
+                    <img src="img/socials/ig-light.png" alt="Logo Instagram">
+                </button>
+                <button class="social-button social-button2 button button-light">
+                    <img src="img/socials/fb-light.png" alt="Logo Instagram">
+                </button>
+                <button class="social-button social-button3 button button-light">
+                    <img src="img/socials/twitter-light.png" alt="Logo Instagram">
+                </button>
+                <button class="social-button social-button4 button button-light">
+                    <img src="img/socials/yt-light.png" alt="Logo Instagram">
+                </button>
+                <button class="social-button social-button5 button button-light">
+                    <img src="img/socials/in-light.png" alt="Logo Instagram">
+                </button>
+            </div>
+            <div class="footer-section footer-section-light">
+                <div>
+                    Iscriviti alla nostra newsletter:
+                    <div style="width: 100%;">
+                        <div class="input-wrapper newsletter-wrapper">
+                            <input class="input input-light" placeholder="Email">
+                        </div>
+                        <button class="button button-light subscribe-button">Iscriviti</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 

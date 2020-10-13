@@ -1,8 +1,13 @@
-html, body {
+html,
+body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
 }
 
+
 /* Parte in alto col logo */
+
 #top {
     padding: 4px;
     width: 100%;
@@ -20,6 +25,10 @@ html, body {
     float: left;
 }
 
+img#logo {
+    height: 100%;
+}
+
 #searchbar-wrapper {
     height: 100%;
     width: 100%;
@@ -28,111 +37,114 @@ html, body {
 #searchbar-wrapper2 {
     display: flex;
     height: 100%;
-}
-
-
-img#logo {
-    height: 100%;
-}
-
-/* Barra di ricerca */
-/* Vecchia 
-#searchbar {
-    padding: 6px 12px;
-    display: block;
-    margin: auto;
-    border: none;
-    border-bottom: 2px solid orange;
-    width: 50%;
-    font-size: 1.2em;
-    color: #888888;
-    border-radius: 5px;
-    /* Ombra *//*
-    box-shadow: 1px 1px 3px;
-}
-
-#searchbar:hover {
-    background-color: #eeeeee;
-}
-
-#searchbar:focus {
-    outline: none;
-    background-color: white;
-}
-
-*/
-
-#new-searchbar {
-    padding: 6px 12px 6px 35px;
-    margin: auto;
-    border: none;
-    border-bottom: 2px solid orange;
-    width: 100%;
-    font-size: 1.2em;
-    color: #888888;
-    border-radius: 5px;
-    /* Ombra */
-    box-shadow: 1px 1px 3px;
-}
-
-#new-searchbar-wrapper {
-    display: flex;    
-    position: relative;
-    margin: auto;
-    width: 40em;
-}
-
-#new-searchbar:hover {
-    background-color: #eeeeee;
-}
-
-#new-searchbar:focus {
-    outline: none;
-    background-color: white;
+    /* Aggiunge distanza fra la searchbar e il logo */
+    padding: 0 1em;
 }
 
 #search-icon {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 10px;
     width: 14px;
 }
 
 #clear-icon {
     position: absolute;
-    top: 12px;
+    top: 15px;
     right: 12px;
     width: 10px;
     cursor: pointer;
     visibility: hidden;
 }
 
+
 /* Navbar */
-nav {
+
+#nav {
     background-color: #F27649;
     height: 2.5em;
     position: sticky;
     top: 0;
 }
 
+
 /* Pagina */
+
 
 /* Impostazioni footer */
 
+
 /* Contenitore della pagina */
+
 #page-container {
     position: relative;
     min-height: 100vh;
 }
 
 #content-wrap {
-    padding-bottom: 3vh; /* Altezza footer */
+    padding-bottom: 3vh;
+    /* Altezza footer */
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3vh;
-    background-color: #eeeeee;
+    height: auto;
+}
+
+.footer-section {
+    margin: 1.5em 0;
+    padding: 0 1em;
+    box-sizing: border-box;
+    float: left;
+    height: 5em;
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.subscribe-button {
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+    width: calc(30% - 1.3em);
+    height: 2em;
+}
+
+.first-section-button {
+    width: calc(50% - 1.3em);
+    box-sizing: border-box;
+    padding-top: 8px;
+    position: absolute;
+    bottom: 0;
+    height: 2em;
+}
+
+.social-button {
+    position: absolute;
+    bottom: 0;
+    height: 2em;
+    padding: 0;
+    width: 2em;
+}
+
+.social-button1 {
+    left: calc(1 * (100% - 10em) / 6);
+}
+
+.social-button2 {
+    left: calc(2 * (100% - 10em) / 6 + 1 * 2em);
+}
+.social-button3 {
+    left: calc(3 * (100% - 10em) / 6 + 2 * 2em);
+}
+.social-button4 {
+    left: calc(4 * (100% - 10em) / 6 + 3 * 2em);
+}
+.social-button5 {
+    left: calc(5 * (100% - 10em) / 6 + 4 * 2em);
+}
+
+.social-button img {
+    width: 100%;
 }

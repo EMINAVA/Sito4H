@@ -1,5 +1,5 @@
-const searchBar = document.querySelector("#new-searchbar")
-const clearImg = document.querySelector("#clear-icon")
+const searchBar = document.querySelector(".searchbar");
+const clearImg = document.querySelector("#clear-icon");
 
 searchBar.addEventListener("keyup", function() {
     if (!searchBar.value) {
