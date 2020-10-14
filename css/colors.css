@@ -1,4 +1,11 @@
 /* Colori */
+.main-light {
+    background-color: #ffffff;
+}
+
+.top-light {
+    background-color: white;
+}
 
 .input-light {
     color: #888888;
@@ -10,11 +17,6 @@
 
 .input-light:focus {
     background-color: white;
-}
-
-.input-dark {
-    color: #CFD2D6;
-    background-color: #2D2D2D;
 }
 
 .footer-light {
@@ -37,4 +39,48 @@
 
 .button-light:hover {
     background-color: #eeeeee;
+}
+
+.main-dark {
+    color: #ffffffbb;
+    background-color: #1f1f1f;
+}
+
+.top-dark {
+    background-color: #202020;
+}
+
+.input-dark {
+    color: #CFD2D6;
+    background-color: #393939;
+}
+
+.input-dark:hover {
+    background-color: #555555;
+}
+
+.input-dark:focus {
+    background-color: #393939;
+}
+
+.footer-dark {
+    background-color: #222222;
+}
+
+.footer-section-central-dark {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.footer-section-dark {
+    color: #ffffffbb;
+}
+
+.button-dark {
+    color: #CFD2D6;
+    background-color: #393939;
+}
+
+.button-dark:hover {
+    background-color: #555555;
 }

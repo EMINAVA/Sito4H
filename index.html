@@ -9,13 +9,14 @@
     <link rel="stylesheet" type="text/css" href="css/input.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id="page-container">
+    <div class="main-light" id="page-container">
         <div id="content-wrap">
 
-            <div id="top">
+            <div id="top" class="top-light">
                 <div id="logo-wrapper">
                     <img id="logo" src="img/logo.png" alt="" />
                 </div>
@@ -35,7 +36,8 @@
 
             </nav>
 
-            <main id="main">
+            <main>
+                Ciao Come stai io sto bene e tu
 
             </main>
 
@@ -49,31 +51,30 @@
 
                 a
                 <button id="dark-mode-btn">Dark mode</button>
-                <script src="js/darkModeScript.js"></script>
             -->
             <div class="footer-section footer-section-light">
                 <div>
                     © 2020 Copyright Lorenzo Hajdari, Emiliano Nava, Federico Tesainer
-                    <button class="first-section-button button button-light" style="left: 1em;">Dark Mode</button>
-                    <button class="first-section-button button button-light" style="right: 1em;">Avviso Cookie</button>
+                    <button class="first-section-button button button-light dark-mode-btn" style="left: 1em;">Dark Mode</button>
+                    <button class="first-section-button button button-light cookie-btn" style="right: 1em;">Avviso Cookie</button>
                 </div>
             </div>
             <div class="footer-section footer-section-central-light footer-section-light">
                 Seguici sui social: 
                 <button class="social-button social-button1 button button-light">
-                    <img src="img/socials/ig-light.png" alt="Logo Instagram">
+                    <a href="https://instagram.com" target="_blank"><img class="social-logo" src="img/socials/ig-light.png" alt="Logo Instagram">
                 </button>
                 <button class="social-button social-button2 button button-light">
-                    <img src="img/socials/fb-light.png" alt="Logo Instagram">
+                    <a href="https://facebook.com" target="_blank"><img class="social-logo" src="img/socials/fb-light.png" alt="Logo Facebook">
                 </button>
                 <button class="social-button social-button3 button button-light">
-                    <img src="img/socials/twitter-light.png" alt="Logo Instagram">
+                    <a href="https://twitter.com" target="_blank"><img class="social-logo" src="img/socials/twitter-light.png" alt="Logo Twitter">
                 </button>
                 <button class="social-button social-button4 button button-light">
-                    <img src="img/socials/yt-light.png" alt="Logo Instagram">
+                    <a href="https://youtube.it" target="_blank"><img class="social-logo" src="img/socials/yt-light.png" alt="Logo YouTube">
                 </button>
                 <button class="social-button social-button5 button button-light">
-                    <img src="img/socials/in-light.png" alt="Logo Instagram">
+                    <a href="https://linkedin.it" target="_blank"><img class="social-logo" src="img/socials/in-light.png" alt="Logo LinkedIn"></a>
                 </button>
             </div>
             <div class="footer-section footer-section-light">
@@ -88,7 +89,9 @@
                 </div>
             </div>
         </footer>
+        <!--<div class="cookie-popup">ciao</div>-->
     </div>
+    <script src="js/darkModeScript.js"></script>
 </body>
 
 </html>
