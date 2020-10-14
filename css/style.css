@@ -79,6 +79,7 @@ img#logo {
 #page-container {
     position: relative;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 #content-wrap {

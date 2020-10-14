@@ -1,4 +1,7 @@
 const darkModeButton = document.querySelector(".dark-mode-btn");
+if (localStorage.darkMode == null) {
+    localStorage.darkMode = false;
+}
 
 function loadCookies() {
     if (getDarkMode())
@@ -6,17 +9,7 @@ function loadCookies() {
 }
 
 function getDarkMode() {
-    var cookies = document.cookie.split(";");
-    for (var i = 0; i < cookies.length; i++) {
-        var res = cookies[i].split("=");
-        if (res[0].trim() == "darkMode") {
-            if (res[1].trim() == "true") {
-                return true;
-            }
-            return false;
-        }
-    }
-    return false;
+    return localStorage.darkMode == "true";
 }
 
 function getDate() {
@@ -81,10 +74,10 @@ function activate(from, to) {
 darkModeButton.addEventListener("click", function() {
     if (!getDarkMode()) {
         activate("-light", "-dark");
-        document.cookie = `darkMode=true; expires=${getDate()};`;
+        localStorage.darkMode = true;
     } else {
         activate("-dark", "-light");
-        document.cookie = `darkMode=false; expires=${getDate()};`;
+        localStorage.darkMode = false;
 
     }
 })
