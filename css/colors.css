@@ -41,6 +41,10 @@
     background-color: #eeeeee;
 }
 
+.cookie-popup-light {
+    background-color: white;
+}
+
 .main-dark {
     color: #ffffffbb;
     background-color: #1f1f1f;
@@ -83,4 +87,8 @@
 
 .button-dark:hover {
     background-color: #555555;
+}
+
+.cookie-popup-dark {
+    background-color: #2b2b2b;
 }

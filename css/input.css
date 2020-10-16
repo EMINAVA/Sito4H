@@ -11,8 +11,9 @@
     font-family: inherit;
 }
 
-button {
+.button {
     transition: 0.2s;
+    cursor: pointer;
 }
 
 button:hover {
@@ -31,11 +32,11 @@ button:hover {
     transition: 0.2s;
 }
 
-.input-wrapper:hover, .newsletter-wrapper:hover {
+.newsletter-wrapper:hover {
     transform: scale(1.2);
     z-index: 1;
 }
-.input-wrapper:focus-within, .newsletter-wrapper:focus-within {
+.newsletter-wrapper:focus-within {
     transform: scale(1);
 }
 

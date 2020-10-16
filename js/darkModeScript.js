@@ -54,6 +54,7 @@ function darkMode() {
                 element2.className = getClasses(element2, from, to);
             });
         } else {
+            if (element == null) continue;
             element.className = getClasses(element, from, to);
         }
     };
@@ -61,7 +62,7 @@ function darkMode() {
 
 function activate(from, to) {
     darkMode(from, to, 
-    document.querySelectorAll(".social-logo"),
+    document.querySelectorAll(".social-logo, .logo"),
     document.querySelectorAll(".input" + from),
     document.querySelector(".footer" + from),
     document.querySelectorAll(".button" + from),
@@ -69,6 +70,7 @@ function activate(from, to) {
     document.querySelectorAll(".footer-section" + from),
     document.querySelector(".top" + from),
     document.querySelector(".main" + from),
+    document.querySelector(".cookie-popup" + from),
 );
 }
 darkModeButton.addEventListener("click", function() {
