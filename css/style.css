@@ -170,11 +170,11 @@ body {
 }
 
 @keyframes hide {
-    
+
     from {
         bottom: 0.5em;
     }
-    
+
     to {
         bottom: -4em;
     }
@@ -190,7 +190,7 @@ body {
 }
 
 .parent {
-    display: table; 
+    display: table;
     height: 100%;
     width: calc(100% - 12.5em);
 }
@@ -201,4 +201,17 @@ body {
   text-align: center;
   height: 100%;
 }
- 
+.center{
+  text-align: center;
+  margin: 0 25% 0 25%;
+}
+#sub{
+  color: #a6a6a6;
+  padding-bottom: 10px;
+}
+iframe {
+  margin-bottom: 30px;
+}
+#contact{
+  opacity: 0.8;
+}
