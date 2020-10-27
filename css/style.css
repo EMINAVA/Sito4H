@@ -211,7 +211,7 @@ header {
 }
  
 .content-container {
-    max-width: 80em;
+    max-width: 75em;
     margin: 0em auto;
     padding: 1em;
 }
@@ -248,17 +248,23 @@ h2 {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
 }
-.center{
+
+.center {
   text-align: center;
   margin: 0 25% 0 25%;
 }
-#sub{
+
+#sub {
   color: #a6a6a6;
-  padding-bottom: 10px;
+  padding: 10px 0 0px 0;
 }
+
 iframe {
-  margin-bottom: 30px;
-}
-#contact{
-  opacity: 0.8;
+  margin-bottom: 0px;
+  padding: 0px;
+  width: 50%;
+  height: 25em;
+  float: left;
+  border: 0 0 inherit 0;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
