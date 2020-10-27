@@ -71,6 +71,8 @@ function activate(from, to) {
     document.querySelector(".top" + from),
     document.querySelector(".main" + from),
     document.querySelector(".cookie-popup" + from),
+    document.querySelector(".aside" + from),
+    
 );
 }
 darkModeButton.addEventListener("click", function() {
