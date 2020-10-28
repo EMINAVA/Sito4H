@@ -61,8 +61,8 @@ header {
 /* Navbar */
 
 #nav {
+    display: flex;
     background-color: #F27649;
-    height: 2.5em;
     position: sticky;
     top: 0;
     box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.3);
@@ -105,9 +105,8 @@ header {
     position: relative;
 }
 
-
 .footer-section p {
-    width: 100%; 
+    width: 100%;
     text-align: center;
     margin: 0;
 }
@@ -144,12 +143,15 @@ header {
 .social-button2 {
     left: calc(2 * (100% - 10em) / 6 + 1 * 2em);
 }
+
 .social-button3 {
     left: calc(3 * (100% - 10em) / 6 + 2 * 2em);
 }
+
 .social-button4 {
     left: calc(4 * (100% - 10em) / 6 + 3 * 2em);
 }
+
 .social-button5 {
     left: calc(5 * (100% - 10em) / 6 + 4 * 2em);
 }
@@ -178,11 +180,9 @@ header {
 }
 
 @keyframes hide {
-
     from {
         bottom: 0.5em;
     }
-
     to {
         bottom: -4em;
     }
@@ -198,22 +198,23 @@ header {
 }
 
 .cookie-parent {
-    display: table; 
+    display: table;
     height: 100%;
     width: calc(100% - 12.5em);
 }
 
 .cookie-child {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
 }
- 
+
 .content-container {
     max-width: 75em;
     margin: 0em auto;
     padding: 1em;
+    display: flex;
 }
 
 aside {
@@ -245,26 +246,35 @@ h2 {
     width: 33%;
     background-color: #eeeeee;
     margin: 0;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
 
 .center {
-  text-align: center;
-  margin: 0 25% 0 25%;
+    text-align: center;
+    margin: 0 25% 0 25%;
 }
 
 #sub {
-  color: #a6a6a6;
-  padding: 10px 0 0px 0;
+    color: #a6a6a6;
+    padding: 10px 0 0 0;
+}
+
+@keyframes in {
+    from {
+        top: calc(2.8em + 2em);
+        opacity: 0%;
+    }
+    to {
+        top: calc(2.8rem);
+        opacity: 100%;
+    }
 }
 
 iframe {
-  margin-bottom: 0px;
-  padding: 0px;
-  width: 50%;
-  height: 25em;
-  float: left;
-  border: 0 0 inherit 0;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 0;
+    width: 50%;
+    height: 25em;
+    float: left;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }

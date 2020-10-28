@@ -12,7 +12,7 @@
 }
 
 .input-light:hover {
-    background-color: #eeeeee;
+    background-color: #d0d0d0;
 }
 
 .input-light:focus {
@@ -38,7 +38,7 @@
 }
 
 .button-light:hover {
-    background-color: #eeeeee;
+    background-color: #d0d0d0;
 }
 
 .cookie-popup-light {
@@ -47,6 +47,27 @@
 
 .aside-light {
     border-right: 1px solid #cccccc;
+}
+
+.dropdown-item-light {
+    color: black;
+    background-color: white;
+}
+
+.dropdown-item-light:hover {
+    background-color: #d0d0d0;
+}
+
+.dropdown-content-light {
+    background-color: white;
+}
+
+.dropdown-content-light:after {
+    box-shadow: 5px 0 0 0 white;
+}
+
+.dropdown-content-light:before {
+    box-shadow: -5px 0 0 0 white;
 }
 
 .main-dark {
@@ -99,4 +120,25 @@
 
 .aside-dark {
     border-right: 1px solid #444444;
+}
+
+.dropdown-item-dark {
+    color: #CFD2D6;
+    background-color: #393939;
+}
+
+.dropdown-item-dark:hover {
+    background-color: #555555;
+}
+
+.dropdown-content-dark {
+    background-color: #393939;
+}
+
+.dropdown-content-dark:after {
+    box-shadow: 5px 0 0 0 #393939;
+}
+
+.dropdown-content-dark:before {
+    box-shadow: -5px 0 0 0 #393939;
 }

@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     transform: scale(1.2);
     z-index: 1;
 }

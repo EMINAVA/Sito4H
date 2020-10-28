@@ -72,6 +72,8 @@ function activate(from, to) {
     document.querySelector(".main" + from),
     document.querySelector(".cookie-popup" + from),
     document.querySelector(".aside" + from),
+    document.querySelectorAll(".dropdown-item" + from),
+    document.querySelectorAll(".dropdown-content" + from),
     
 );
 }
