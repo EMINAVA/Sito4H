@@ -62,7 +62,7 @@ function darkMode() {
 
 function activate(from, to) {
     darkMode(from, to, 
-    document.querySelectorAll(".social-logo, .logo"),
+    document.querySelectorAll(".social-logo, .logo, .buttons .button img"),
     document.querySelectorAll(".input" + from),
     document.querySelector(".footer" + from),
     document.querySelectorAll(".button" + from),
@@ -74,7 +74,8 @@ function activate(from, to) {
     document.querySelector(".aside" + from),
     document.querySelectorAll(".dropdown-item" + from),
     document.querySelectorAll(".dropdown-content" + from),
-    
+    document.querySelectorAll(".copyright" + from),
+        
 );
 }
 darkModeButton.addEventListener("click", function() {

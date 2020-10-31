@@ -1,0 +1,12 @@
+#sub {
+    color: #a6a6a6;
+    padding: 10px 0 0 0;
+}
+
+iframe {
+    padding: 0;
+    width: 50%;
+    height: 25em;
+    float: left;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}

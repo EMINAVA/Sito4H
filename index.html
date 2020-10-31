@@ -35,25 +35,43 @@
 
       <nav id="nav">
         <div class="dropdown-container">
-          <div class="dropdown-wrapper">
-            <a href="https://google.com">RotateX</a>
+          <div class="dropdown-wrapper single-button" style="z-index: 8;">
+            <a class="non-clickable">Home</a>
+          </div>
+          <div class="dropdown-wrapper" style="z-index: 7;">
+            <a href="pages/intel-vs-amd.html">CPU</a>
             <ul class="dropdown-content dropdown-content-light">
-              <li class="dropdown-item dropdown-item-1 dropdown-item-light">Item 1</li>
-              <li class="dropdown-item dropdown-item-2 dropdown-item-light">Item 2</li>
-              <li class="dropdown-item dropdown-item-3 dropdown-item-light">Item 3</li>
-              <li class="dropdown-item dropdown-item-4 dropdown-item-light">Item 4</li>
-              <li class="dropdown-item dropdown-item-5 dropdown-item-light">Item 5</li>
+              <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a>Ryzen 3 vs i3</a></li>
+              <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a>Ryzen 5 vs i5</a></li>
+              <li class="dropdown-item dropdown-item-3 dropdown-item-light"><a>Ryzen 7 vs i7</a></li>
+              <li class="dropdown-item dropdown-item-4 dropdown-item-light"><a>Ryzen 9 vs i9</a></li>
             </ul>
           </div>
-          <div class="dropdown-wrapper">
-            <a href="https://google.com">RotateX</a>
+          <div class="dropdown-wrapper" style="z-index: 6;">
+            <a href="https://google.com">GPU</a>
             <ul class="dropdown-content dropdown-content-light">
-              <li class="dropdown-item dropdown-item-1 dropdown-item-light">Item 1</li>
-              <li class="dropdown-item dropdown-item-2 dropdown-item-light">Item 2</li>
-              <li class="dropdown-item dropdown-item-3 dropdown-item-light">Item 3</li>
-              <li class="dropdown-item dropdown-item-4 dropdown-item-light">Item 4</li>
-              <li class="dropdown-item dropdown-item-5 dropdown-item-light">Item 5</li>
+              <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a>RX vs GTX</a></li>
+              <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a>Navi vs RTX</a></li>
             </ul>
+          </div>
+          <div class="dropdown-wrapper" style="z-index: 5;">
+            <a class="non-clickable">Scheda Madre</a>
+            <ul class="dropdown-content dropdown-content-light">
+              <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a>Socket AM4 vs LGA1151</a></li>
+              <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a>I Vari Chipset</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 4;">
+            <a href="https://google.com">RAM</a>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 3;">
+            <a href="https://google.com">Alimentatore</a>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 2;">
+            <a href="https://google.com">Case</a>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 1;">
+            <a href="pages/contacts.html">Contatti</a>
           </div>
         </div>
       </nav>
@@ -61,7 +79,7 @@
       <main>
         <div class="content-container">
           <aside class="aside-light">
-            ciao
+            ciaociao
           </aside>
           <div class="category-box category-box-light"></div>
         </div>
@@ -71,7 +89,7 @@
     <footer id="footer" class="footer-light">
       <div class="footer-section footer-section-light">
         <div>
-          <p>© 2020 Copyright Lorenzo Hajdari, Emiliano Nava, Federico Tesainer</p>
+          <p>Impostazioni: </p>
           <button class="first-section-button button button-light dark-mode-btn" style="left: 1em;">Dark Mode</button>
           <button class="first-section-button button button-light cookie-btn" style="right: 1em;">Avviso Cookie</button>
         </div>
@@ -79,19 +97,19 @@
       <div class="footer-section footer-section-central-light footer-section-light">
         <p>Seguici sui social:</p>
         <button class="social-button social-button1 button button-light">
-          <a href="https://instagram.com" target="_blank"><img class="social-logo" src="img/socials/ig-light.png" alt="Logo Instagram">
+          <a href="https://instagram.com" target="_blank"><img class="social-logo" src="../img/socials/ig-light.png" alt="Logo Instagram">
         </button>
         <button class="social-button social-button2 button button-light">
-          <a href="https://facebook.com" target="_blank"><img class="social-logo" src="img/socials/fb-light.png" alt="Logo Facebook">
+          <a href="https://facebook.com" target="_blank"><img class="social-logo" src="../img/socials/fb-light.png" alt="Logo Facebook">
         </button>
         <button class="social-button social-button3 button button-light">
-          <a href="https://twitter.com" target="_blank"><img class="social-logo" src="img/socials/twitter-light.png" alt="Logo Twitter">
+          <a href="https://twitter.com" target="_blank"><img class="social-logo" src="../img/socials/twitter-light.png" alt="Logo Twitter">
         </button>
         <button class="social-button social-button4 button button-light">
-          <a href="https://youtube.it" target="_blank"><img class="social-logo" src="img/socials/yt-light.png" alt="Logo YouTube">
+          <a href="https://youtube.it" target="_blank"><img class="social-logo" src="../img/socials/yt-light.png" alt="Logo YouTube">
         </button>
         <button class="social-button social-button5 button button-light">
-          <a href="https://linkedin.it" target="_blank"><img class="social-logo" src="img/socials/in-light.png" alt="Logo LinkedIn"></a>
+          <a href="https://linkedin.it" target="_blank"><img class="social-logo" src="../img/socials/in-light.png" alt="Logo LinkedIn"></a>
         </button>
       </div>
       <div class="footer-section footer-section-light">
@@ -105,6 +123,7 @@
           </div>
         </div>
       </div>
+      <p class="copyright copyright-light">© 2020 Copyright Lorenzo Hajdari, Emiliano Nava, Federico Tesainer</p>
     </footer>
     <div class="cookie-popup cookie-popup-light">
       <div class="cookie-parent">

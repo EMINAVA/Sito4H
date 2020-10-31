@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="../css/colors.css"/>
     <link rel="stylesheet" type="text/css" href="../css/input.css"/>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/dropdown.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/contacts.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -32,9 +34,50 @@
               </div>
             </header>
       
-            <nav id="nav">
-      
-            </nav>
+            
+
+      <nav id="nav">
+        <div class="dropdown-container">
+          <div class="dropdown-wrapper single-button" style="z-index: 8;">
+            <a href="../index.html">Home</a>
+          </div>
+          <div class="dropdown-wrapper" style="z-index: 7;">
+            <a href="intel-vs-amd.html">CPU</a>
+            <ul class="dropdown-content dropdown-content-light">
+              <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a>Ryzen 3 vs i3</a></li>
+              <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a>Ryzen 5 vs i5</a></li>
+              <li class="dropdown-item dropdown-item-3 dropdown-item-light"><a>Ryzen 7 vs i7</a></li>
+              <li class="dropdown-item dropdown-item-4 dropdown-item-light"><a>Ryzen 9 vs i9</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-wrapper" style="z-index: 6;">
+            <a href="https://google.com">GPU</a>
+            <ul class="dropdown-content dropdown-content-light">
+              <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a>RX vs GTX</a></li>
+              <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a>Navi vs RTX</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-wrapper" style="z-index: 5;">
+            <a class="non-clickable">Scheda Madre</a>
+            <ul class="dropdown-content dropdown-content-light">
+              <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a>Socket AM4 vs LGA1151</a></li>
+              <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a>I Vari Chipset</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 4;">
+            <a href="https://google.com">RAM</a>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 3;">
+            <a href="https://google.com">Alimentatore</a>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 2;">
+            <a href="https://google.com">Case</a>
+          </div>
+          <div class="dropdown-wrapper single-button" style="z-index: 1;">
+            <a class="non-clickable">Contatti</a>
+          </div>
+        </div>
+      </nav>
       
             <main>
                 <div class="content-container">
@@ -52,42 +95,43 @@
             </main>
             </div>
             <footer id="footer" class="footer-light">
-                <div class="footer-section footer-section-light">
-                    <div>
-                        © 2020 Copyright Lorenzo Hajdari, Emiliano Nava, Federico Tesainer
-                        <button class="first-section-button button button-light dark-mode-btn" style="left: 1em;">Dark Mode</button>
-                        <button class="first-section-button button button-light cookie-btn" style="right: 1em;">Avviso Cookie</button>
+              <div class="footer-section footer-section-light">
+                <div>
+                  <p>Impostazioni: </p>
+                  <button class="first-section-button button button-light dark-mode-btn" style="left: 1em;">Dark Mode</button>
+                  <button class="first-section-button button button-light cookie-btn" style="right: 1em;">Avviso Cookie</button>
+                </div>
+              </div>
+              <div class="footer-section footer-section-central-light footer-section-light">
+                <p>Seguici sui social:</p>
+                <button class="social-button social-button1 button button-light">
+                  <a href="https://instagram.com" target="_blank"><img class="social-logo" src="../img/socials/ig-light.png" alt="Logo Instagram">
+                </button>
+                <button class="social-button social-button2 button button-light">
+                  <a href="https://facebook.com" target="_blank"><img class="social-logo" src="../img/socials/fb-light.png" alt="Logo Facebook">
+                </button>
+                <button class="social-button social-button3 button button-light">
+                  <a href="https://twitter.com" target="_blank"><img class="social-logo" src="../img/socials/twitter-light.png" alt="Logo Twitter">
+                </button>
+                <button class="social-button social-button4 button button-light">
+                  <a href="https://youtube.it" target="_blank"><img class="social-logo" src="../img/socials/yt-light.png" alt="Logo YouTube">
+                </button>
+                <button class="social-button social-button5 button button-light">
+                  <a href="https://linkedin.it" target="_blank"><img class="social-logo" src="../img/socials/in-light.png" alt="Logo LinkedIn"></a>
+                </button>
+              </div>
+              <div class="footer-section footer-section-light">
+                <div>
+                  <p>Iscriviti alla nostra newsletter:</p>
+                  <div style="width: 100%;">
+                    <div class="input-wrapper newsletter-wrapper">
+                      <input class="input input-light" placeholder="Email">
                     </div>
+                    <button class="button button-light subscribe-button">Iscriviti</button>
+                  </div>
                 </div>
-                <div class="footer-section footer-section-central-light footer-section-light">
-                    Seguici sui social:
-                    <button class="social-button social-button1 button button-light">
-                        <a href="https://instagram.com" target="_blank"><img class="social-logo" src="../img/socials/ig-light.png" alt="Logo Instagram">
-                    </button>
-                    <button class="social-button social-button2 button button-light">
-                        <a href="https://facebook.com" target="_blank"><img class="social-logo" src="../img/socials/fb-light.png" alt="Logo Facebook">
-                    </button>
-                    <button class="social-button social-button3 button button-light">
-                        <a href="https://twitter.com" target="_blank"><img class="social-logo" src="../img/socials/twitter-light.png" alt="Logo Twitter">
-                    </button>
-                    <button class="social-button social-button4 button button-light">
-                        <a href="https://youtube.it" target="_blank"><img class="social-logo" src="../img/socials/yt-light.png" alt="Logo YouTube">
-                    </button>
-                    <button class="social-button social-button5 button button-light">
-                        <a href="https://linkedin.it" target="_blank"><img class="social-logo" src="../img/socials/in-light.png" alt="Logo LinkedIn"></a>
-                    </button>
-                </div>
-                <div class="footer-section footer-section-light">
-                    <div>
-                        Iscriviti alla nostra newsletter:
-                        <div style="width: 100%;">
-                            <div class="input-wrapper newsletter-wrapper">
-                                <input class="input input-light" placeholder="Email">
-                            </div>
-                            <button class="button button-light subscribe-button">Iscriviti</button>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <p class="copyright copyright-light">© 2020 Copyright Lorenzo Hajdari, Emiliano Nava, Federico Tesainer</p>
             </footer>
             <div class="cookie-popup cookie-popup-light">
                 <div class="cookie-parent">

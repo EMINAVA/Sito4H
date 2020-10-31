@@ -66,21 +66,14 @@ header {
     position: sticky;
     top: 0;
     box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.3);
+    z-index: 2;
 }
-
-
-/* Pagina */
-
-
-/* Impostazioni footer */
-
 
 /* Contenitore della pagina */
 
 #page-container {
     position: relative;
     min-height: 100vh;
-    /* overflow: hidden;*/
 }
 
 #content-wrap {
@@ -88,19 +81,29 @@ header {
     /* Altezza footer */
 }
 
+/* Impostazioni footer */
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 8em;
+}
+
+.copyright {
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 0; 
+    left: 50%;
+    margin-bottom: 3px; 
+    font-size: 0.7em;
+    white-space: nowrap;
 }
 
 .footer-section {
-    margin: 1.5em 0;
+    margin: 1.2em 0;
     padding: 0 1em;
     box-sizing: border-box;
     float: left;
-    height: 5em;
+    height: 4em; /* 5em */
     width: calc(100% / 3);
     position: relative;
 }
@@ -109,6 +112,10 @@ header {
     width: 100%;
     text-align: center;
     margin: 0;
+}
+
+.footer-h3 {
+    font-size: inherit; color: inherit; margin: 0; font-weight: inherit;
 }
 
 .subscribe-button {
@@ -126,6 +133,7 @@ header {
     position: absolute;
     bottom: 0;
     height: 2em;
+    overflow: hidden;
 }
 
 .social-button {
@@ -218,8 +226,8 @@ header {
 }
 
 aside {
-    width: 20%;
     float: left;
+    padding-right: 1em;
     margin-right: 1em;
 }
 
@@ -250,31 +258,28 @@ h2 {
     border-radius: 20px;
 }
 
-.center {
-    text-align: center;
-    margin: 0 25% 0 25%;
+/* Bottoni fine pagina */
+.buttons {
+    width: 100%;
+    display: flex;
 }
 
-#sub {
-    color: #a6a6a6;
-    padding: 10px 0 0 0;
+.buttons .button {
+    font-size: 1.1em;
+    width: min-content;
+    display: inline-block;
+    margin: 0;
 }
-
-@keyframes in {
-    from {
-        top: calc(2.8em + 2em);
-        opacity: 0%;
-    }
-    to {
-        top: calc(2.8rem);
-        opacity: 100%;
-    }
+.buttons .button div {
+    width: min-content;
+    margin: auto;
+    display: flex;
 }
-
-iframe {
-    padding: 0;
-    width: 50%;
-    height: 25em;
-    float: left;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+.buttons .button p {
+    width: 4em;
+    margin: 0;
+}
+.buttons .button img {
+    height: 1.1em;
+    margin: auto 0;
 }

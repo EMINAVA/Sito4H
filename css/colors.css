@@ -41,6 +41,10 @@
     background-color: #d0d0d0;
 }
 
+.button-light:disabled:hover {
+    background-color: white;
+}
+
 .cookie-popup-light {
     background-color: white;
 }
@@ -68,6 +72,10 @@
 
 .dropdown-content-light:before {
     box-shadow: -5px 0 0 0 white;
+}
+
+.copyright-light {
+    color: #555555;
 }
 
 .main-dark {
@@ -114,6 +122,10 @@
     background-color: #555555;
 }
 
+.button-dark:disabled:hover {
+    background-color: #393939;
+}
+
 .cookie-popup-dark {
     background-color: #2b2b2b;
 }
@@ -141,4 +153,8 @@
 
 .dropdown-content-dark:before {
     box-shadow: -5px 0 0 0 #393939;
+}
+
+.copyright-dark {
+    color: #999999;
 }
