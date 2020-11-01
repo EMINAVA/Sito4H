@@ -5,6 +5,16 @@ body {
     font-size: 1.1em;
 }
 
+a {
+    color: orange;
+}
+a:hover {
+    color: #F27649;
+}
+
+p {
+    margin: 0.7rem 0;
+}
 
 /* Parte in alto col logo */
 
@@ -219,16 +229,42 @@ header {
 }
 
 .content-container {
-    max-width: 75em;
+    max-width: 70em;
     margin: 0em auto;
     padding: 1em;
     display: flex;
 }
 
 aside {
+    font-size: 0.8em;
+    font-weight: bold;
     float: left;
     padding-right: 1em;
     margin-right: 1em;
+}
+
+aside a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s;
+    color: #666666;
+    white-space: nowrap;
+}
+
+aside a:hover {
+    transform: scale(1.1);
+    color: #888888;
+}
+
+aside ul {
+    margin: 0.2em 0;
+    padding-left: 2em;
+    list-style-type: none;
+    font-weight: normal;
+}
+
+aside ul ul {
+    list-style-type: "-    ";
 }
 
 .content {
@@ -246,7 +282,7 @@ h2 {
     font-size: 1.5em;
     text-align: center;
     width: 100%;
-    margin-top: 0.2em;
+    margin: 0.2rem 0 1em 0;
 }
 
 .category-box {
@@ -262,6 +298,7 @@ h2 {
 .buttons {
     width: 100%;
     display: flex;
+    margin-bottom: 0.5em;
 }
 
 .buttons .button {
@@ -282,4 +319,41 @@ h2 {
 .buttons .button img {
     height: 1.1em;
     margin: auto 0;
+}
+.image-container {
+    display: flex;
+}
+
+.image-container p {
+    order: 1;
+    width: 70%;
+    display: block;
+}
+.image-container img {
+    padding-left: 1em;
+    display: block;
+    order: 2;
+    height: 400px;
+    align-self: center;
+}
+
+.data-flex {
+    display: flex;
+    width: 100%;
+}
+
+  
+.data-flex img {
+    order: 2;
+    margin-left: 1em;
+    width: 25%;
+    align-self: center;
+}
+
+.data-flex p {
+    order: 1;
+    margin: auto 0;
+}
+.content section {
+    text-align: justify;
 }

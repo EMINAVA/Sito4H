@@ -62,21 +62,22 @@ function darkMode() {
 
 function activate(from, to) {
     darkMode(from, to, 
-    document.querySelectorAll(".social-logo, .logo, .buttons .button img"),
-    document.querySelectorAll(".input" + from),
-    document.querySelector(".footer" + from),
-    document.querySelectorAll(".button" + from),
-    document.querySelector(".footer-section-central" + from),
-    document.querySelectorAll(".footer-section" + from),
-    document.querySelector(".top" + from),
-    document.querySelector(".main" + from),
-    document.querySelector(".cookie-popup" + from),
-    document.querySelector(".aside" + from),
-    document.querySelectorAll(".dropdown-item" + from),
-    document.querySelectorAll(".dropdown-content" + from),
-    document.querySelectorAll(".copyright" + from),
+        document.querySelectorAll(".social-logo, .logo, .buttons .button img"),
+        document.querySelectorAll(".input" + from),
+        document.querySelector(".footer" + from),
+        document.querySelectorAll(".button" + from),
+        document.querySelector(".footer-section-central" + from),
+        document.querySelectorAll(".footer-section" + from),
+        document.querySelector(".top" + from),
+        document.querySelector(".main" + from),
+        document.querySelector(".cookie-popup" + from),
+        document.querySelector(".aside" + from),
+        document.querySelectorAll(".dropdown-item" + from),
+        document.querySelectorAll(".dropdown-content" + from),
+        document.querySelectorAll(".copyright" + from),
         
-);
+    );
+    DISQUS.reset({reload: true});
 }
 darkModeButton.addEventListener("click", function() {
     if (!getDarkMode()) {

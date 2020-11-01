@@ -79,20 +79,93 @@
       <main>
         <div class="content-container">
           <aside class="aside-light">
-            ciao
+                Processori
+                <ul>
+                  <li>
+                    Intel
+                    <ul>
+                      <li><a href="">Core i3-10100</a></li>
+                      <li><a href="">Core i3-10300</a></li>
+                      <li><a href="">Core i5-10400</a></li>
+                      <li><a href="">Core i5-10500</a></li>
+                      <li><a href="">Core i5-10600K</a></li>
+                      <li><a href="">Core i7-10700K</a></li>
+                      <li><a href="">Core i9-10900KF</a></li>
+                      <li><a href="">Core i9-10900K</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    AMD
+                    <ul>
+                      <li><a href="">Ryzen 3 3100</a></li>
+                      <li><a href="">Ryzen 3 3300X</a></li>
+                      <li><a href="">Ryzen 5 3400G</a></li>
+                      <li><a href="">Ryzen 5 3600</a></li>
+                      <li><a href="">Ryzen 5 3600X</a></li>
+                      <li><a href="">Ryzen 7 3700X</a></li>
+                      <li><a href="">Ryzen 7 3800X</a></li>
+                      <li><a href="">Ryzen 9 3900X</a></li>
+                      <li><a href="">Ryzen 9 3950X</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                Schede Video
+                <ul>
+                  <li>
+                    NVIDIA
+                    <ul>
+                      <li><a href="">GTX 1050 2GB</a></li>
+                      <li><a href="">GTX 1050 Ti 2GB</a></li>
+                      <li><a href="">GTX 1060 6GB</a></li>
+                      <li><a href="">GTX 1070 8GB</a></li>
+                      <li><a href="">GTX 1070 Ti 8GB</a></li>
+                      <li><a href="">GTX 1080 8GB</a></li>
+                      <li><a href="">GTX 1080 Ti 11GB</a></li>
+                      <li><a href="">GTX 1660 6GB</a></li>
+                      <li><a href="">GTX 1660 Ti 6GB</a></li>
+                      <li><a href="">RTX 2060 6GB</a></li>
+                      <li><a href="">RTX 2060 SUPER 8GB</a></li>
+                      <li><a href="">RTX 2070 8GB</a></li>
+                      <li><a href="">RTX 2070 8GB</a></li>
+                      <li><a href="">RTX 2080 8GB</a></li>
+                      <li><a href="">RTX 2080 SUPER 8GB</a></li>
+                      <li><a href="">RTX 2080 Ti 11GB</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    AMD
+                    <ul>
+                      <li><a href="">RX 560 4GB</a></li>
+                      <li><a href="">RX 570 4GB</a></li>
+                      <li><a href="">RX 570 8GB</a></li>
+                      <li><a href="">RX 580 4GB</a></li>
+                      <li><a href="">RX 580 8GB</a></li>
+                      <li><a href="">RX 590 8GB</a></li>
+                      <li><a href="">RX 5500 4GB</a></li>
+                      <li><a href="">RX 5500 XT 8GB</a></li>
+                      <li><a href="">RX 5600 6GB</a></li>
+                      <li><a href="">RX 5600 XT 6GB</a></li>
+                      <li><a href="">RX 5700 8GB</a></li>
+                      <li><a href="">RX 5700 XT 8GB</a></li>
+                    </ul>
+                  </li>
+                </ul>
           </aside>
           <div class="content">
             <section>
               <h1>Processore</h1>
               <h2>Intel vs AMD</h2>
-              <img src="../img/intel-vs-amd/intel-vs-amd.png" alt="Intel vs AMD" style="width: 35%; float: left; margin-right: 1em;"/>
-              <p>L’indecisione più comune di chi deve comprare o assemblare un computer è sempre la scelta del processore,
-              anche detta Cpu dall’acronimo “Central Processing Unit”. Infatti ci sono due tipi di processori,
-              molto simili tra loro ma comunque con sottili differenze che possono portare all’acquisto di uno o dell’altro.
-              Le due case produttrici in questione sono Intel (1968) e AMD (1969),
-              la prima è spesso indicata per prestazioni leggermente maggiori mentre la seconda per budget ridotti.
-              Se si vuole un computer per lavori che non richiedono tanta potenza di calcolo come guardare la posta o navigare su internet,
-              i costi saranno proporzionati alle basse prestazioni poiché non servirà spendere 500 euro per un processore ma bensì ne basteranno molti di meno.</p>
+              <div class="data-flex">
+                <img src="../img/intel-vs-amd/intel-vs-amd.png" alt="Intel vs AMD"/>
+                <p>L’indecisione più comune di chi deve comprare o assemblare un computer è sempre la scelta del processore,
+                anche detta Cpu dall’acronimo “Central Processing Unit”. Infatti ci sono due tipi di processori,
+                molto simili tra loro ma comunque con sottili differenze che possono portare all’acquisto di uno o dell’altro.
+                Le due case produttrici in questione sono Intel (1968) e AMD (1969),
+                la prima è spesso indicata per prestazioni leggermente maggiori mentre la seconda per budget ridotti.
+                Se si vuole un computer per lavori che non richiedono tanta potenza di calcolo come guardare la posta o navigare su internet,
+                i costi saranno proporzionati alle basse prestazioni poiché non servirà spendere 500 euro per un processore ma bensì ne basteranno molti di meno.</p>
+              </div>
               <div style="clear: both;"></div>
               <p>Prima di acquistarne uno però bisogna conoscere un paio di cose necessarie per comprendere meglio le differenze fra i prodotti;</p>
               <p>Frequenza: La frequenza di un processore viene chiamata clock, 
@@ -116,6 +189,9 @@
                 </div>
               </button>
             </div>
+            <div id="disqus_thread"></div>
+            <script src="../js/disqus.js"></script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           </div>  
         </div>
       </main>
