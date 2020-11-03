@@ -39,7 +39,7 @@
             <a href="../index.html">Home</a>
           </div>
           <div class="dropdown-wrapper" style="z-index: 7;">
-            <a class="non-clickable">CPU</a>
+            <a href="intel-vs-amd.html">CPU</a>
             <ul class="dropdown-content dropdown-content-light">
               <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a href="r3_vs_i3.html">Ryzen 3 vs i3</a></li>
               <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a href="r5_vs_i5.html">Ryzen 5 vs i5</a></li>
@@ -48,7 +48,7 @@
             </ul>
           </div>
           <div class="dropdown-wrapper" style="z-index: 6;">
-            <a href="gpu_main.html">GPU</a>
+            <a class="non-clickable">GPU</a>
             <ul class="dropdown-content dropdown-content-light">
               <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a href="rt_vs_gtx.html">RX vs GTX</a></li>
               <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a href="navi_vs_rtx.html">Navi vs RTX</a></li>
@@ -149,29 +149,29 @@
           </aside>
           <div class="content">
             <section>
-              <h1>Processore</h1>
-              <h2>Intel vs AMD</h2>
-              <div class="data-flex">
-                <img src="../img/intel-vs-amd/intel-vs-amd.png" alt="Intel vs AMD"/>
-                <p>L’indecisione più comune di chi deve comprare o assemblare un computer è sempre la scelta del processore,
-                anche detta Cpu dall’acronimo “Central Processing Unit”. Infatti ci sono due tipi di processori,
-                molto simili tra loro ma comunque con sottili differenze che possono portare all’acquisto di uno o dell’altro.
-                Le due case produttrici in questione sono Intel (1968) e AMD (1969),
-                la prima è spesso indicata per prestazioni leggermente maggiori mentre la seconda per budget ridotti.
-                Se si vuole un computer per lavori che non richiedono tanta potenza di calcolo come guardare la posta o navigare su internet,
-                i costi saranno proporzionati alle basse prestazioni poiché non servirà spendere 500 euro per un processore ma bensì ne basteranno molti di meno.</p>
-              </div>
-              <div style="clear: both;"></div>
-              <p>Prima di acquistarne uno però bisogna conoscere un paio di cose necessarie per comprendere meglio le differenze fra i prodotti;</p>
-              <p>Frequenza: La frequenza di un processore viene chiamata clock,
-              corrisponde al numero di operazioni che riesce a fare in un secondo e viene calcolata in GHz.
-              Ogni Cpu ha una frequenza di base di fabbrica. Essa dipende dalla fascia di prezzo,
-              per esempio un i5-9400 ha una frequenza di base 2.9 GHz mentre un i9-9900k (Intel 9a generazione) ha una frequenza di base 3.6 GHz.</p>
-              <p>Core: i core possono essere considerati dei processori situati all’interno del processore che condividono la stessa scheda.
-              Più ce ne sono, più operazioni può effettuare il processore; i processori vengono in taglie da 1 a 64 core (nel caso dei processori da server).
-              Alcuni processori supportano una tecnologia chiamata hyperthreading; la tecnica consiste nel dividere i core fisici in due core astratti (quindi non fisici) detti thread.
-              Questo consente di “duplicare” i core, quindi se ce ne fossero 64 i thread sarebbero 128.<br>Qui sotto ci sono elencati dei link per il confronto delle due marche</p>
-            </section>
+              <h1>Schede video</h1><br>
+              <p>La GPU dall acronimo “Graphic Processing Unit” serve nella parte grafica del computer,
+                in base alla necessità bisogna comprare una scheda adatta alle esigenze. Esse variano in
+                grandezza, potenza, estetica ecc. il suo compito è quello di trasformare i segnali elettrici
+                dati dalla CPU in segale video grazie ai driver.</p>
+              <p>Iniziamo dal dire che AMD oltre ai processori fa anche schede video, infatti è la diretta concorrente di Nvidia.
+                Come sempre il marketing di AMD si basa sul costo più accessibile rispetto ai concorrenti (come abbiamo
+                visto con i processori meno costosi di quelli di Intel). Iniziamo col dire che anche qui ci sono
+                 diverse fasce di prezzo per diverse performance. Vedremo più in particolare la serie “Radeon” e
+                 “Navi” di AMD e la serie “Gtx” ed “Rtx” di Nvidia. </p>
+              <p>Una scheda video è formata da diversi componenti, essi sono:</p>
+              <ul class="lists">
+                <li>Gpu: come detto prima c è la “Graphic Processing Unit”, è sostanzialmente il processore della scheda video;</li>
+                <li>Bios video: piccola memoria dove è installato il firmwaer (driver necessario all’ avvio del computer durante la fase di Boostrap);</li>
+                <li>memoria video: una memoria vera e propria come la RAM all’ interno della scheda, di solito sono 4/8/12 gb ma in alcuni casi di schede di fascia alta possono essere anche oltre.</li>
+              </ul>
+              <p>La scheda video ha diversi modi per trasmettere il segnale video al monitor, essi solo:</p>
+              <ul class="lists">
+                <li>Video Graphic Array (VGA): creato negli anni 80 per video a il 1080p o superiore, sgrana se il cavo è corto.</li>
+                <li>Digital Visual Interface (DVI): risolve il problema del VGA grazie all’ allineamento dei pixel della scheda grafica con quelli del monitor.</li>
+                <li>High Definition Multimedia Interface (HDMI): standard molto recente per trasmissione video e audio. </li>
+                <li>Display Port (DP): sostituisce l HDMI, viene usato principalmente come fonte video ma può essere usato anche come trasportatore audio, USB e altre forme di trasmissione dati. Viene usato principalmente per trasmettere al monitor un segnale a più di 60Hz.</li>
+              </ul>
             <div class="buttons">
               <button type="button" class="button button-light" disabled>
                 <div>
@@ -179,7 +179,7 @@
                 </div>
               </button>
               <button class="button button-light" style="margin-left: auto;">
-                <div href="r3_vs_i3.html">
+                <div>
                   <p>Avanti</p><img src="../img/arrow-light.png" alt="Back" style="transform: rotate(180deg);">
                 </div>
               </button>

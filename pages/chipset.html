@@ -55,7 +55,7 @@
             </ul>
           </div>
           <div class="dropdown-wrapper" style="z-index: 5;">
-            <a class="non-clickable">Scheda Madre</a>
+            <a href="intel-vs-amd.html">Scheda Madre</a>
             <ul class="dropdown-content dropdown-content-light">
               <li class="dropdown-item dropdown-item-1 dropdown-item-light"><a href="am4_vs_lga.html">Socket AM4 vs LGA1151</a></li>
               <li class="dropdown-item dropdown-item-2 dropdown-item-light"><a href="chipset.html">I Vari Chipset</a></li>
@@ -149,28 +149,28 @@
           </aside>
           <div class="content">
             <section>
-              <h1>Processore</h1>
-              <h2>Intel vs AMD</h2>
-              <div class="data-flex">
-                <img src="../img/intel-vs-amd/intel-vs-amd.png" alt="Intel vs AMD"/>
-                <p>L’indecisione più comune di chi deve comprare o assemblare un computer è sempre la scelta del processore,
-                anche detta Cpu dall’acronimo “Central Processing Unit”. Infatti ci sono due tipi di processori,
-                molto simili tra loro ma comunque con sottili differenze che possono portare all’acquisto di uno o dell’altro.
-                Le due case produttrici in questione sono Intel (1968) e AMD (1969),
-                la prima è spesso indicata per prestazioni leggermente maggiori mentre la seconda per budget ridotti.
-                Se si vuole un computer per lavori che non richiedono tanta potenza di calcolo come guardare la posta o navigare su internet,
-                i costi saranno proporzionati alle basse prestazioni poiché non servirà spendere 500 euro per un processore ma bensì ne basteranno molti di meno.</p>
-              </div>
-              <div style="clear: both;"></div>
-              <p>Prima di acquistarne uno però bisogna conoscere un paio di cose necessarie per comprendere meglio le differenze fra i prodotti;</p>
-              <p>Frequenza: La frequenza di un processore viene chiamata clock,
-              corrisponde al numero di operazioni che riesce a fare in un secondo e viene calcolata in GHz.
-              Ogni Cpu ha una frequenza di base di fabbrica. Essa dipende dalla fascia di prezzo,
-              per esempio un i5-9400 ha una frequenza di base 2.9 GHz mentre un i9-9900k (Intel 9a generazione) ha una frequenza di base 3.6 GHz.</p>
-              <p>Core: i core possono essere considerati dei processori situati all’interno del processore che condividono la stessa scheda.
-              Più ce ne sono, più operazioni può effettuare il processore; i processori vengono in taglie da 1 a 64 core (nel caso dei processori da server).
-              Alcuni processori supportano una tecnologia chiamata hyperthreading; la tecnica consiste nel dividere i core fisici in due core astratti (quindi non fisici) detti thread.
-              Questo consente di “duplicare” i core, quindi se ce ne fossero 64 i thread sarebbero 128.<br>Qui sotto ci sono elencati dei link per il confronto delle due marche</p>
+              <h1 style="margin:30px">Chipset</h1>
+              <img src="../img/componenti/mb/seconda pag/amd/X570.jpg" alt="IM1" style="position:relative;height:400px;width:500px;">
+              <img src="../img/componenti/mb/seconda pag/intel/Z490.jpg" alt="IM2" style="float:right;position:relative;height:400px;width:500px;">
+              <p>
+                Iniziamo con il dire che ci sono diversi tipologie di schede madri, esse cambiano in fattori come grandezza, socket, velocita di trasmissioni dati e architettura. In questa scheda parleremo principalmente dei diversi chipset ma prima parliamo dei diversi formati.
+                Esistono diversi formati di schede madri, essi sono:<ul>
+                <li><b>Standard-ATX</b>: normale grandezza delle schede madri, usate spesso per configurazioni da ufficio o normali postazioni da casa.
+                <li><b>Micro-ATX</b>: per configurazioni più piccole, ha dunque meno slot di espansione.
+                <li><b>Mini-ITX</b>: sono le schede madri più piccole sul mercato, ottime per fare configurazioni compatte ma serve un case adatto per questa tipologia di schede.
+              </ul></p><p>
+                Iniziamo dal dire che ce ne sono diversi per ogni socket, partiamo con quelli di AMD con socket AM4:<ul>
+                <li>chipset A320: ottimo per chi non ha esigenze particolari come overclok o non necessita di multi-GPU, per budget ristretti. Con USB 10GBps e porte USB 3.1 e USB 2.0, connesioni sata 3, sata express ed infine porte PCIe per SSD m.2. Prezzo sui 50 euro.
+                <li>chipset b350: ottimo per chi non ha esigenze particolari come multi-gpu, consente un leggero overclock. Con diverse porte USB 3.1 e USB 2.0, connesioni sata 3, sata express ed infine porte PCIe 3.0 a x8 per SSD m.2. Prezzo sui 70 euro
+                <li>chipset B450: ottimo per chi ha esigenze particolari come overclok o necessita di multi-GPU. Con diverse porte USB 3.1 Gen 2, USB 3.1 Gen 1, USB 2. Connessioni sata 3, sata express, 6 linee PCle 2.0 e 1 linea 3.0 e 1 slot PCIe x16. Principali differenze nel Precision Boost Overdrive (overclock automatico) e AMDstoreMI (intelligenza artificiale che permette di velocizzare il recupero dei dati nel computer quando necessari per l’utilizzo.) prezzo dagli 80 ai 100 euro
+                <li>chipset X370, X470, X570: rispetto alle versioni precedenti aggiungono altre porte USB 3.1 gen1 5GBps, porte sata, PCIe e PCIe x8, mentre in fine le x570 tendono ad avere chipset che ricevono gli aggiornamenti più velocemente. Prezzo dalla meno costosa di circa 100 euro alla più costosa di circa 200/300 euro
+              </ul></p><p>
+                Se si deve optare per una configurazione mini-ITX allora si può optare per la serie X300.
+                Ora passiamo alle schede madri di Intel con socket LGA 1200:<ul>
+                <li>B460: le principali differenze si hanno con l’aumento totale di 16 linee PCIe 3.0, a discapito del supporto USB 3.2 Gen 2 assente. Aggiungendo però 2 porte USB 3.2 Gen 2 rispetto le 6 delle vecchia B360. Le porte sata rimangono invariate a 6.
+                <li>H470: scheda quasi identica alla precedente H370, sempre 20 linee PCIe 3.0, 14 porte USB 2.0 e 6 porte sata, aggiungendo però 2 porte 3.2 Gen 2 rispetto alle vecchie 4.
+                <li>Z490: scheda madre di ultima generazione, offre il massimo delle prestazioni ma ha un costo molto alto, massimo supporto e stabilità nell’overclok e va usata con processori della serie “K” con moltiplicatore sbloccato. 24 linee PCIe, 14 porte USB 2.0, 6 porte sata e 6 porte USB 3.2 Gen 2. Dalla vecchia Z390 cambia solo il miglioramento delle funzionalità interne della scheda stessa, null’ altro.
+              </ul></p>
             </section>
             <div class="buttons">
               <button type="button" class="button button-light" disabled>
@@ -179,7 +179,7 @@
                 </div>
               </button>
               <button class="button button-light" style="margin-left: auto;">
-                <div href="r3_vs_i3.html">
+                <div>
                   <p>Avanti</p><img src="../img/arrow-light.png" alt="Back" style="transform: rotate(180deg);">
                 </div>
               </button>
