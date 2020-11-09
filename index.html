@@ -5,12 +5,16 @@
 <head>
   <meta charset="UTF-8">
   <title>HWKnowledge</title>
-  <link rel="stylesheet" type="text/css" href="css/colors.css"/>
+  <link rel="icon" href="img/favicon.png">
   <link rel="stylesheet" type="text/css" href="css/input.css"/>
   <link rel="stylesheet" type="text/css" href="css/style.css"/>
   <link rel="stylesheet" type="text/css" href="css/dropdown.css"/>
+  <link rel="stylesheet" type="text/css" href="css/colors.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -77,26 +81,160 @@
       </nav>
 
       <main>
-            <script>
-
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://hwknowlegde.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-            })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+        <div class="content-container">
+          <aside class="aside-light">
+                Processori
+                <ul>
+                  <li>
+                    Intel
+                    <ul>
+                      <li><a href="https://www.amazon.it/Intel-BX8070110100-Core-i3-10100-tattica/dp/B0883MTJSR/" target="_blank">Core i3-10100</a></li>
+                      <li><a href="https://www.amazon.it/Intel-Core-i3-10300-tatto-BX8070110300/dp/B0883NG147/" target="_blank">Core i3-10300</a></li>
+                      <li><a href="https://www.amazon.it/Intel-Core-i5-10400-fase-base/dp/B0883NPQST/" target="_blank">Core i5-10400</a></li>
+                      <li><a href="https://www.amazon.it/Intel-Core-i5-10500-fase-base/dp/B0883NPQSZ/" target="_blank">Core i5-10500</a></li>
+                      <li><a href="https://www.amazon.it/Intel-Core-i5-10600K-attacco-LGA1200/dp/B0883NTLXM/" target="_blank">Core i5-10600K</a></li>
+                      <li><a href="https://www.amazon.it/CPU-INTEL-10700K-LGA-1200/dp/B089DQ5X1B/" target="_blank">Core i7-10700K</a></li>
+                      <li><a href="https://www.amazon.it/Processore-Intel-Core-i9-10900KF-frequenza/dp/B0883PZ2KR/" target="_blank">Core i9-10900KF</a></li>
+                      <li><a href="https://www.amazon.it/Intel-BX8070110900K-Core-i9-10900K-fase/dp/B0883NZC43/" target="_blank">Core i9-10900K</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    AMD
+                    <ul>
+                      <li><a href="https://www.amazon.it/ADVANCED-MICRO-DEVICES-100-100000284BOX-Advanced/dp/B0876Y2TMZ/" target="_blank">Ryzen 3 3100</a></li>
+                      <li><a href="#">Ryzen 3 3300X</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Ryzen-5-3400G-Processori/dp/B07SXNDKNM/" target="_blank">Ryzen 5 3400G</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Ryzen-5-3600-Processori/dp/B07STGGQ18/" target="_blank">Ryzen 5 3600</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Ryzen-5-3600X-Processori/dp/B07SQBFN2D/" target="_blank">Ryzen 5 3600X</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Ryzen-7-3700X-Processori/dp/B07SXMZLPK/" target="_blank">Ryzen 7 3700X</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Ryzen-7-3800X-Processori/dp/B07SXMZLPJ/" target="_blank">Ryzen 7 3800X</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Processori-Ryzen-9-3900X/dp/B07SXMZLP9/" target="_blank">Ryzen 9 3900X</a></li>
+                      <li><a href="https://www.amazon.it/AMD-Ryzen-3950x-Retail-100-100000051WOF/dp/B07ZTYKLZW/" target="_blank">Ryzen 9 3950X</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                Schede Video
+                <ul>
+                  <li>
+                    NVIDIA
+                    <ul>
+                      <li><a href="https://www.amazon.it/EVGA-GeForce-Graficas-Supporto-02G-P4-6157-KR/dp/B06WXXCNWQ/" target="_blank">GTX 1050 2GB</a></li>
+                      <li><a href="https://www.amazon.it/Asus-CERBERUS-GTX1050TI-O4G-Scheda-Video-fino/dp/B078ZT646T/" target="_blank">GTX 1050 Ti 4GB</a></li>
+                      <li><a href="https://www.amazon.it/Asus-GeForce-DUAL-GTX1060-O6G-Scheda-Grafica/dp/B01IPFN7UQ/" target="_blank">GTX 1060 6GB</a></li>
+                      <li><a href="https://www.amazon.it/MSI-GeForce-GTX-1070-GAMING/dp/B01GRCYPE6/" target="_blank">GTX 1070 8GB</a></li>
+                      <li><a href="https://www.amazon.it/MSI-GTX-1070-Ti-GAMING/dp/B076VWFDC1/" target="_blank">GTX 1070 Ti 8GB</a></li>
+                      <li><a href="https://www.amazon.it/MSI-GTX-1080-GAMING-8G/dp/B01GELBO1C/" target="_blank">GTX 1080 8GB</a></li>
+                      <li><a href="https://www.amazon.it/PNY-GeForce-NVidia-Grafica-Express/dp/B072L7Y8H7/" target="_blank">GTX 1080 Ti 11GB</a></li>
+                      <li><a href="https://www.amazon.it/MSI-GeForce-GTX-1660-6G/dp/B07P66WG5D/ " target="_blank">GTX 1660 6GB</a></li>
+                      <li><a href="https://www.amazon.it/Gigabyte-Ventola-Nvidia-GTX1660Ti-OC/dp/B07NWCMYMW/" target="_blank">GTX 1660 Ti 6GB</a></li>
+                      <li><a href="https://www.amazon.it/EVGA-GeForce-ULTRA-BLACK-GAMING/dp/B083JX52VG/" target="_blank">RTX 2060 6GB</a></li>
+                      <li><a href="https://www.amazon.it/ASUS-GeForce-Express-1650MHz-1680MHz-14000MHz/dp/B08176SPRQ/" target="_blank">RTX 2060 SUPER 8GB</a></li>
+                      <li><a href="https://www.amazon.it/GeForce-RTX-2070-Ventus-GP/dp/B0817726L8/" target="_blank">RTX 2070 8GB</a></li>
+                      <li><a href="https://www.amazon.it/Gigabyte-GeForce-Super-WINDFORCE-GV-N207S-WF3OC-8GD/dp/B07X51LTKK/" target="_blank">RTX 2070 SUPER 8GB</a></li>
+                      <li><a href="https://www.amazon.it/Palit-NE62080S20P2-180A-Grafica-Graphics-1815MHz/dp/B07GZFW8BN/" target="_blank">RTX 2080 8GB</a></li>
+                      <li><a href="https://www.amazon.it/MSI-2080-SUPER-GAMING-TRIO/dp/B07VGM29BZ/" target="_blank">RTX 2080 SUPER 8GB</a></li>
+                      <li><a href="https://www.amazon.it/Gigabyte-Aorus-GeForce-2080-Gv-N208TAORUS-11GC/dp/B07J9YGZ9X/" target="_blank">RTX 2080 Ti 11GB</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    AMD
+                    <ul>
+                      <li><a href="https://www.amazon.it/ASUS-ROG-STRIX-RX560-4G-GAMING-Radeon-560-GDDR5/dp/B071SJ5MYK/" target="_blank">RX 560 4GB</a></li>
+                      <li><a href="https://www.amazon.it/PowerColor-AXRX-570-4GBD5-3DHD-OC/dp/B06ZYRRW9T/" target="_blank">RX 570 4GB</a></li>
+                      <li><a href="https://www.amazon.it/XFX-RX-570P8DFD6-Radeon-GDDR5-scheda/dp/B077VX31FZ/" target="_blank">RX 570 8GB</a></li>
+                      <li><a href="https://www.amazon.it/SAPPHIRE-Nitro-Radeon-4GD5-GDDR5/dp/B0797XLR9Z/" target="_blank">RX 580 4GB</a></li>
+                      <li><a href="https://www.amazon.it/XFX-RX-580P8DFD6-Scheda-Grafica-Nero/dp/B06Y66K3XD/" target="_blank">RX 580 8GB</a></li>
+                      <li><a href="https://www.amazon.it/Sapphire-Radeon-Nitro-scheda-grafica/dp/B07K1YJVCT/" target="_blank">RX 590 8GB</a></li>
+                      <li><a href="https://www.amazon.it/Sapphire-Technology-Radeon-TRIPLE-11295-03-20G/dp/B082P6MXLK/" target="_blank">RX 5500 4GB</a></li>
+                      <li><a href="https://www.amazon.it/SAPPHIRE-PULSE-RADEON-GDDR6-TRIPLE/dp/B082P7HZ4Z/" target="_blank">RX 5500 XT 8GB</a></li>
+                      <li><a href="https://www.amazon.it/MSI-Radeon-5600-MECH-Afterburner/dp/B083YLB97V/" target="_blank">RX 5600 6GB</a></li>
+                      <li><a href="https://www.amazon.it/GIGABYTE-Radeon-5600-Gaming-GDDR6/dp/B0843QRV3V/" target="_blank">RX 5600 XT 6GB</a></li>
+                      <li><a href="https://www.amazon.it/XFX-RX-5700-dissipazione-RX-57XL83LD8/dp/B087J3KM2X/" target="_blank">RX 5700 8GB</a></li>
+                      <li><a href="https://www.amazon.it/AxialTech-Tecnologia-Auto-Extreme-MaxContact-Backplate/dp/B07WDLQT7Y/" target="_blank">RX 5700 XT 8GB</a></li>
+                    </ul>
+                  </li>
+                </ul>
+          </aside>
+          <div class="content home-content">
+            <a href="pages/intel-vs-amd.html">
+              <div class="category-box category-box-light">
+                <div style="box-shadow: inherit; height: min-content;">
+                  <img src="img/home/cpu.webp" alt="CPU">
+                </div>
+                <div class="category-box-text">
+                  <p>
+                    Una guida che ti aiuterà a scegliere il giusto processore in base
+                    alle tue necessita e al tuo budget.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="pages/gpu_main.html">
+              <div class="category-box category-box-light">
+                <div style="box-shadow: inherit;">
+                  <img src="img/home/gpu.webp" alt="GPU" style="padding: 10px;">
+                </div>
+                <div class="category-box-text">
+                  <p>
+                    Questa guida ti auiterà a navigare il mare di schede video presenti sul 
+                    mercato e ti indirizzerà verso il prodotto più adatto alle tue esigenze.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="pages/am4_vs_lga.html">
+              <div class="category-box category-box-light">
+                <div style="box-shadow: inherit; height: min-content;">
+                  <img src="img/home/motherboard.webp" alt="Motherboard" style="padding: 10px;">
+                </div>
+                <div class="category-box-text">
+                  <p>
+                    Sei sopraffatto dal numero e tipo di schede madri che esistono? Non ti 
+                    preoccupare, questa guida è quella che fa per te!
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="pages/ram.html">
+              <div class="category-box category-box-light">
+                <div style="box-shadow: inherit; height: min-content;">
+                  <img src="img/home/ram.webp" alt="RAM" style="padding: 10px;">
+                </div>
+                <div class="category-box-text">
+                  <p>
+                    Qui troverai tutte le informazioni sulle varie caratteristiche di qualsiasi
+                    banco di RAM ti possa servire.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="pages/power_supply.html">
+              <div class="category-box category-box-light">
+                <div style="box-shadow: inherit; height: min-content;">
+                  <img src="img/home/psu.webp" alt="PSU" style="padding: 5px;">
+                </div>
+                <div class="category-box-text">
+                  <p>
+                    Se stai cercando quale alimentatore possa andare bene per il tuo PC questa 
+                    pagina ha tutte le informazioni di cui hai bisogni.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="pages/case.html">
+              <div class="category-box category-box-light">
+                <div style="box-shadow: inherit; height: min-content;">
+                  <img src="img/home/case.webp" alt="Case">
+                </div>
+                <div class="category-box-text">
+                  <p>
+                    Stai cercando un case che sia fantastico da guardare ma che possa anche 
+                    contenere e raffreddare tutti i tuoi componenti? Leggi qui.
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </main>
@@ -112,21 +250,31 @@
       </div>
       <div class="footer-section footer-section-central-light footer-section-light">
         <p>Seguici sui social:</p>
-        <button class="social-button social-button1 button button-light">
-          <a href="https://instagram.com" target="_blank"><img class="social-logo" src="img/socials/ig-light.png" alt="Logo Instagram">
-        </button>
-        <button class="social-button social-button2 button button-light">
-          <a href="https://facebook.com" target="_blank"><img class="social-logo" src="img/socials/fb-light.png" alt="Logo Facebook">
-        </button>
-        <button class="social-button social-button3 button button-light">
-          <a href="https://twitter.com" target="_blank"><img class="social-logo" src="img/socials/twitter-light.png" alt="Logo Twitter">
-        </button>
-        <button class="social-button social-button4 button button-light">
-          <a href="https://youtube.it" target="_blank"><img class="social-logo" src="img/socials/yt-light.png" alt="Logo YouTube">
-        </button>
-        <button class="social-button social-button5 button button-light">
-          <a href="https://linkedin.it" target="_blank"><img class="social-logo" src="img/socials/in-light.png" alt="Logo LinkedIn"></a>
-        </button>
+        <form action="https://instagram.com" target="_blank">
+          <button class="social-button social-button1 button button-light">
+            <img class="social-logo" src="img/socials/ig-light.png" alt="Logo Instagram">
+          </button>
+        </form>
+        <form action="https://facebook.com" target="_blank">
+          <button class="social-button social-button2 button button-light">
+            <img class="social-logo" src="img/socials/fb-light.png" alt="Logo Facebook">
+          </button>
+          </form>
+        <form action="https://twitter.com" target="_blank">
+          <button class="social-button social-button3 button button-light">
+            <img class="social-logo" src="img/socials/twitter-light.png" alt="Logo Twitter">
+          </button>
+        </form>
+        <form action="https://youtube.com" target="_blank">
+          <button class="social-button social-button4 button button-light">
+            <img class="social-logo" src="img/socials/yt-light.png" alt="Logo YouTube">
+          </button>
+        </form>
+        <form action="https://it.linkedin.com/" target="_blank">
+          <button class="social-button social-button5 button button-light">
+            <img class="social-logo" src="img/socials/in-light.png" alt="Logo LinkedIn">
+          </button>
+        </form>
       </div>
       <div class="footer-section footer-section-light">
         <div>
@@ -135,7 +283,7 @@
             <div class="input-wrapper newsletter-wrapper">
               <input class="input input-light" placeholder="Email">
             </div>
-            <button class="button button-light subscribe-button">Iscriviti</button>
+            <button class="button button-light subscribe-button" style="overflow: hidden;">Iscriviti</button>
           </div>
         </div>
       </div>
@@ -154,6 +302,8 @@
   <script src="js/darkModeScript.js"></script>
   <script src="js/cookieScript.js"></script>
   <script src="js/searchbarFocusFix.js"></script>
+  <script>
+  </script>
 </body>
 
 </html>

@@ -5,6 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <title>HWKnowledge</title>
+  <link rel="icon" href="../img/favicon.png">
   <link rel="stylesheet" type="text/css" href="../css/colors.css"/>
   <link rel="stylesheet" type="text/css" href="../css/input.css"/>
   <link rel="stylesheet" type="text/css" href="../css/style.css"/>
@@ -156,21 +157,21 @@
                 dati dalla CPU in segale video grazie ai driver.</p>
               <p>Iniziamo dal dire che AMD oltre ai processori fa anche schede video, infatti è la diretta concorrente di Nvidia.
                 Come sempre il marketing di AMD si basa sul costo più accessibile rispetto ai concorrenti (come abbiamo
-                visto con i processori meno costosi di quelli di Intel). Iniziamo col dire che anche qui ci sono
+                visto con i processori meno costosi di quelli di Intel). Anche qui ci sono
                  diverse fasce di prezzo per diverse performance. Vedremo più in particolare la serie “Radeon” e
                  “Navi” di AMD e la serie “Gtx” ed “Rtx” di Nvidia. </p>
               <p>Una scheda video è formata da diversi componenti, essi sono:</p>
-              <ul class="lists">
+              <ul>
                 <li>Gpu: come detto prima c è la “Graphic Processing Unit”, è sostanzialmente il processore della scheda video;</li>
-                <li>Bios video: piccola memoria dove è installato il firmwaer (driver necessario all’ avvio del computer durante la fase di Boostrap);</li>
-                <li>memoria video: una memoria vera e propria come la RAM all’ interno della scheda, di solito sono 4/8/12 gb ma in alcuni casi di schede di fascia alta possono essere anche oltre.</li>
+                <li>Bios video: piccola memoria dove è installato il firmware (driver necessario all’ avvio del computer durante la fase di Bootstrap);</li>
+                <li>memoria video: una memoria vera e propria come la RAM all’ interno della scheda, di solito sono 4/8/12GB ma in alcuni casi di schede di fascia alta possono essere anche oltre.</li>
               </ul>
               <p>La scheda video ha diversi modi per trasmettere il segnale video al monitor, essi solo:</p>
               <ul class="lists">
-                <li>Video Graphic Array (VGA): creato negli anni 80 per video a il 1080p o superiore, sgrana se il cavo è corto.</li>
-                <li>Digital Visual Interface (DVI): risolve il problema del VGA grazie all’ allineamento dei pixel della scheda grafica con quelli del monitor.</li>
+                <li>Video Graphic Array (VGA): creato negli anni 80 per video a 1080p o superiore, sgrana se il cavo non è corto.</li>
+                <li>Digital Visual Interface (DVI): risolve il problema del VGA grazie all’allineamento dei pixel della scheda grafica con quelli del monitor.</li>
                 <li>High Definition Multimedia Interface (HDMI): standard molto recente per trasmissione video e audio. </li>
-                <li>Display Port (DP): sostituisce l HDMI, viene usato principalmente come fonte video ma può essere usato anche come trasportatore audio, USB e altre forme di trasmissione dati. Viene usato principalmente per trasmettere al monitor un segnale a più di 60Hz.</li>
+                <li>Display Port (DP): sostituisce l'HDMI, viene usato principalmente come fonte video ma può essere usato anche come trasportatore audio, USB e altre forme di trasmissione dati. Viene usato principalmente per trasmettere al monitor un segnale a più di 60Hz.</li>
               </ul>
             <div class="buttons">
               <button type="button" class="button button-light" disabled>
@@ -178,11 +179,13 @@
                   <img src="../img/arrow-light.png" alt="Back"><p>Indietro</p>
                 </div>
               </button>
-              <button class="button button-light" style="margin-left: auto;">
-                <div>
-                  <p>Avanti</p><img src="../img/arrow-light.png" alt="Back" style="transform: rotate(180deg);">
-                </div>
-              </button>
+              <form action="rt_vs_gtx.html" style="margin-left: auto;">
+                <button class="button button-light">
+                  <div>
+                    <p>Avanti</p><img src="../img/arrow-light.png" alt="Back" style="transform: rotate(180deg);">
+                  </div>
+                </button>
+              </form>
             </div>
             <div id="disqus_thread"></div>
             <script src="../js/disqus.js"></script>

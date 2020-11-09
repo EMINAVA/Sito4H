@@ -100,9 +100,9 @@ header {
 .copyright {
     position: absolute;
     transform: translateX(-50%);
-    bottom: 0;
+    bottom: 0; 
     left: 50%;
-    margin-bottom: 3px;
+    margin-bottom: 3px; 
     font-size: 0.7em;
     white-space: nowrap;
 }
@@ -341,35 +341,16 @@ h2 {
     width: 100%;
 }
 
-
+  
 .data-flex img {
     order: 2;
     margin-left: 1em;
     width: 30%;
     align-self: center;
-    margin: 20px;
 }
 
 .data-flex p {
     order: 1;
-    margin: auto 0;
-}
-.data-flex-two {
-    display: flex;
-    width: 100%;
-}
-
-
-.data-flex-two img {
-    order: 1;
-    margin-left: 1em;
-    width: 25%;
-    align-self: center;
-    margin: 20px;
-}
-
-.data-flex-two p {
-    order: 2;
     margin: auto 0;
 }
 .content section {
