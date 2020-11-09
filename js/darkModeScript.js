@@ -75,9 +75,12 @@ function activate(from, to) {
         document.querySelectorAll(".dropdown-item" + from),
         document.querySelectorAll(".dropdown-content" + from),
         document.querySelectorAll(".copyright" + from),
+        document.querySelectorAll(".category-box" + from),
         
     );
-    DISQUS.reset({reload: true});
+    try {
+        DISQUS.reset({reload: true});
+    } catch { }
 }
 darkModeButton.addEventListener("click", function() {
     if (!getDarkMode()) {
